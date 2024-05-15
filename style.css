@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    
+}
+form{
+    align-items:center ;
+    max-width: 350px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+label{
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    font-size: 1.3em;
+    margin-top: 30px;
+    color: white;
+    background-color: brown;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(90, 23, 23);
+}
