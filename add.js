@@ -4,7 +4,7 @@ const Reset = document.getElementById("Reset");
 const Add = document.getElementById("Add");
 let num = 0;
 
-const reduce=()=>{
+function reduce(){
     num--;
     myText.textContent = num;
 }
